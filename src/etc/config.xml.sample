@@ -194,7 +194,7 @@
   </sysctl>
   <system>
     <optimization>normal</optimization>
-    <hostname>OPNsense</hostname>
+    <hostname>Intecso</hostname>
     <domain>localdomain</domain>
     <dnsallowoverride>1</dnsallowoverride>
     <group>

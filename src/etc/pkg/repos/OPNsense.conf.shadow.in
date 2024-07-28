@@ -3,5 +3,5 @@ OPNsense: {
   url: "%%CORE_PACKAGESITE%%/${ABI}/%%CORE_REPOSITORY%%",
   signature_type: "fingerprints",
   priority: 11,
-  enabled: yes
+  enabled: no
 }

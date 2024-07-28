@@ -196,7 +196,7 @@ class DashboardController extends ApiControllerBase
     {
         $result = ['items' => []];
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://forum.opnsense.org/index.php?board=11.0&action=.xml;limit=5;type=rss2');
+        curl_setopt($ch, CURLOPT_URL, 'https://intecso.ru/');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $output = curl_exec($ch);
         curl_close($ch);
